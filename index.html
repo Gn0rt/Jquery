@@ -4,11 +4,61 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      #div1 {
+        margin: auto;
+        text-align: center;
+        border: 3px solid black;
+        font-size: 30px;
+        background-color: cadetblue;
+        height: 300px;
+        width: 300px;
+      }
+      #div2 {
+        margin: auto;
+        margin-top: 10px;
+        text-align: center;
+        border: 3px solid black;
+        font-size: 30px;
+        background-color: chocolate;
+        height: 300px;
+        width: 300px;
+      }
+      #div3 {
+        margin: auto;
+        margin-top: 10px;
+        text-align: center;
+        border: 3px solid black;
+        font-size: 30px;
+        background-color: chocolate;
+        height: 300px;
+        width: 300px;
+      }
+    </style>
   </head>
   <body>
-    <h1>Introduce jquery</h1>
-    <img src="./images/aaa.jpeg" alt="" id="img1" />
-    <button onclick="func1()">FADE</button>
+    <h1>jQuery Selectors</h1>
+
+    <div id="div1">
+      <p id="p1" class="para">This is paragraph 1</p>
+      <p>This is paragraph 2</p>
+    </div>
+
+    <div id="div2">
+      <p class="para">This is paragraph 3</p>
+      <p>This is paragraph 4</p>
+    </div>
+
+    <div id="div3">
+      <uk>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+      </uk>
+    </div>
+
+    <button onclick="func1()">Click me!</button>
 
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
